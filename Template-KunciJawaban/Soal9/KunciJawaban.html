@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Tabel + Form</h1>
+  <Table border="1" cellspacing="0" cellpadding="5">
+    <tr>
+      <td colspan="3" align="center" bgcolor="darkgrey"><strong>Input Data Mahasiswa</strong></td>
+    </tr>
+    <tr>
+      <td>Username</td>
+      <td align="center">:</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td align="center">:</td>
+      <td><input type="password"></td>
+    </tr>
+    <tr>
+      <td>Fullname</td>
+      <td align="center">:</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td>E-mail</td>
+      <td align="center">:</td>
+      <td><input type="email"></td>
+    </tr>
+    <tr>
+      <td>Agama</td>
+      <td align="center">:</td>
+      <td>
+        <select name="--Pilih Agama--" id="agama">
+          <option>--Pilih Agama--</option>
+          <option>Kristen Katholik</option>
+          <option>Kristen Protestan</option>
+          <option>Budha</option>
+          <option>Islam</option>
+          <option>Hindu</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Jenis Kelamin</td>
+      <td align="center">:</td>
+      <td>
+        <input type="radio" id="lk"><label for="lk">Laki-laki</label>
+        <input type="radio" id="pw"><label for="pw">Perempuan</label>
+      </td>
+    </tr>
+    <tr>
+      <td>Hobi</td>
+      <td align="center">:</td>
+      <td>
+        <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+        <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+        <input type="checkbox" id="membaca"><label for="membaca">membaca</label>
+        <input type="checkbox" id="game"><label for="game">game</label>
+        <input type="checkbox" id="renang"><label for="renang">renang</label>
+      </td>
+    </tr>
+    <tr>
+      <td>Profil Singkat</td>
+      <td align="center">:</td>
+      <td><textarea name="" id="" cols="40" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3" align="right"><button type="submit">Input</button></td>
+    </tr>
+  </Table>
+</body>
+
+</html>
